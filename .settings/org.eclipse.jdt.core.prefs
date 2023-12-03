@@ -1,6 +1,6 @@
 # See this link for documentation of all options: https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.jdt.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjdt%2Fcore%2FJavaCore.html
 # Use "javac -X" to get a list of supported SuppressWarnings constants that are recognized by the current compiler
-# See this link for documentation about all SuppressWarnings constants that are recognized by the eclipse language server https://help.eclipse.org/mars/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-suppress_warnings.htm 
+# See this link for documentation about all SuppressWarnings constants that are recognized by the eclipse language server https://help.eclipse.org/mars/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-suppress_warnings.htm
 
 #Enable local variable names in debugger
 org.eclipse.jdt.core.compiler.debug.localVariable = generate
@@ -56,7 +56,7 @@ org.eclipse.jdt.core.compiler.problem.unusedExceptionParameter = info
 #Should unused parameters be pointed out even when implementing abstract methods?
 org.eclipse.jdt.core.compiler.problem.unusedParameterWhenImplementingAbstract = disabled
 
-#Should unused parameters be pointed out even when implementing from a concrete method? 
+#Should unused parameters be pointed out even when implementing from a concrete method?
 org.eclipse.jdt.core.compiler.problem.unusedParameterWhenOverridingConcrete = disabled
 
 #Should the reference (mentioning) in JavaDoc suffice to flag an unused parameter as "used"?
@@ -270,22 +270,22 @@ org.eclipse.jdt.core.compiler.problem.explicitlyClosedAutoCloseable = ignore
 org.eclipse.jdt.core.compiler.annotation.nullanalysis = disabled
 
 #Configured nullable annotation for aiding nullpointer analysis
-#org.eclipse.jdt.core.compiler.annotation.nullable = 
+#org.eclipse.jdt.core.compiler.annotation.nullable =
 
 #Additional nullable annotation types that may be defined by libraries etc. A comma separated list of fully qualified names
-#org.eclipse.jdt.core.compiler.annotation.nullable.secondary = 
+#org.eclipse.jdt.core.compiler.annotation.nullable.secondary =
 
 #Configured nonnull annotation for aiding nullpointer analysis
-#org.eclipse.jdt.core.compiler.annotation.nonnull = 
+#org.eclipse.jdt.core.compiler.annotation.nonnull =
 
 #Additional nonnull annotation types that may be defined by libraries etc. A comma separated list of fully qualified names
-#org.eclipse.jdt.core.compiler.annotation.nonnull.secondary = 
+#org.eclipse.jdt.core.compiler.annotation.nonnull.secondary =
 
 #Configued annotation for aiding nullpointer analysis
-#org.eclipse.jdt.core.compiler.annotation.nonnullbydefault = 
+#org.eclipse.jdt.core.compiler.annotation.nonnullbydefault =
 
 #Additional annotation types that may be defined by libarries etc. A comma separated list of fully qqualified names
-#org.eclipse.jdt.core.compiler.annotation.nonnullbydefault.secondary = 
+#org.eclipse.jdt.core.compiler.annotation.nonnullbydefault.secondary =
 
 #Should a missing NonNullByDefault annotation be pointed out by the compiler?
 org.eclipse.jdt.core.compiler.annotation.missingNonNullByDefaultAnnotation = ignore
@@ -373,7 +373,7 @@ org.eclipse.jdt.core.computeJavaBuildOrder = ignore
 org.eclipse.jdt.core.builder.duplicateResourceTask = warning
 
 #Some filter used during resource copying, being a file name pattern (* and ? wildcards allowed) Though it is unclear whether this is a blacklist or whitelist
-org.eclipse.jdt.core.builder.resourceCopyExclusionFilter = 
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter =
 
 #Whether the output directory should be cleaned before performing full builds
 org.eclipse.jdt.core.builder.cleanOutputFolder = clean
@@ -430,16 +430,16 @@ org.eclipse.jdt.core.codeComplete.substringMatch = enabled
 org.eclipse.jdt.core.codeComplete.forceImplicitQualification = disabled
 
 #Autofill the configured prefixes when showing code completion suggestions
-org.eclipse.jdt.core.codeComplete.fieldPrefixes = 
-org.eclipse.jdt.core.codeComplete.staticFieldPrefixes = 
-org.eclipse.jdt.core.codeComplete.staticFinalFieldPrefixes = 
-org.eclipse.jdt.core.codeComplete.localPrefixes = 
-org.eclipse.jdt.core.codeComplete.argumentPrefixes = 
-org.eclipse.jdt.core.codeComplete.fieldSuffixes = 
-org.eclipse.jdt.core.codeComplete.staticFieldSuffixes = 
-org.eclipse.jdt.core.codeComplete.staticFinalFieldSuffixes = 
-org.eclipse.jdt.core.codeComplete.localSuffixes = 
-org.eclipse.jdt.core.codeComplete.argumentSuffixes = 
+org.eclipse.jdt.core.codeComplete.fieldPrefixes =
+org.eclipse.jdt.core.codeComplete.staticFieldPrefixes =
+org.eclipse.jdt.core.codeComplete.staticFinalFieldPrefixes =
+org.eclipse.jdt.core.codeComplete.localPrefixes =
+org.eclipse.jdt.core.codeComplete.argumentPrefixes =
+org.eclipse.jdt.core.codeComplete.fieldSuffixes =
+org.eclipse.jdt.core.codeComplete.staticFieldSuffixes =
+org.eclipse.jdt.core.codeComplete.staticFinalFieldSuffixes =
+org.eclipse.jdt.core.codeComplete.localSuffixes =
+org.eclipse.jdt.core.codeComplete.argumentSuffixes =
 
 #Code completion ignores matches that are forbidden by certain rule sets (???)
 org.eclipse.jdt.core.codeComplete.forbiddenReferenceCheck = enabled
